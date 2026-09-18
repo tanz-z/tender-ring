@@ -49,7 +49,7 @@ export default function App() {
       <Methodology />
 
       <footer className="max-w-[1400px] mx-auto px-6 md:px-10 py-6 text-[0.7rem] text-inkmuted/70">
-        ClearBid — prototype for a hackathon submission, Smart Governance &amp; Compliance track.
+        TenderRing — prototype for a hackathon submission, Smart Governance &amp; Compliance track.
       </footer>
     </div>
   );

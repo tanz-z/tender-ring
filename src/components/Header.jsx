@@ -5,7 +5,7 @@ export default function Header() {
         <div className="flex items-baseline justify-between gap-6 flex-wrap">
           <div>
             <h1 className="font-serif text-[2.1rem] leading-none text-ink font-semibold tracking-tight">
-              ClearBid
+              TenderRing
             </h1>
             <p className="mt-2 text-inkmuted text-[0.95rem] max-w-xl leading-snug">
               A prototype procurement-audit console. It doesn't hunt for outliers —
