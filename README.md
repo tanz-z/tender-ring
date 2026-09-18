@@ -1,15 +1,5 @@
-# ClearBid — Procurement Integrity Prototype
+# TenderRing — Procurement Integrity Prototype
 
-**Hackathon submission — Smart Governance & Compliance track**
-Problem 2: auditing procurement activity to surface cases that deserve human
-investigation, without assuming every change or every unusual price is
-misconduct.
-
-**Live demo:** _add your Vercel URL here after deploying_
-**One-line pitch:** ClearBid doesn't hunt for outliers against a global
-average — it builds a peer group for every tender first, then ranks cases by
-how many independent signals corroborate, how much money is at stake, and
-whether a benign explanation already accounts for the anomaly.
 
 ---
 
@@ -52,10 +42,6 @@ their time.
    rank-based cutoff (top 20 in this build) a case is marked "flagged for
    review"; everything is still visible and explorable below that line.
 
-## What's actually built vs. what's pitched
-
-This is a hackathon prototype, and it's worth being direct about the line
-between the two, because a judge will ask:
 
 **Built and working:**
 - Synthetic procurement market: 60 vendors, 300 tenders, 3 planted collusion
@@ -68,7 +54,7 @@ between the two, because a judge will ask:
   built from the actual bid data), and a peer-price comparison chart.
 - Precision @ top-10 / top-20 / top-40, computed live each run.
 
-**Pitched but not yet built:**
+**To be built:**
 - Additional detectors described in the design doc: threshold bunching
   (contract splitting near approval limits), tender-window compression,
   vendor lifecycle analysis, amendment drift.
@@ -107,20 +93,7 @@ npm run dev
 
 Open the URL Vite prints (usually `http://localhost:5173`).
 
-## Deploy to Vercel
 
-```bash
-git init
-git add .
-git commit -m "ClearBid prototype"
-git branch -M main
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-
-Then import the repo at [vercel.com/new](https://vercel.com/new). Vercel
-auto-detects Vite — default build command (`npm run build`) and output
-directory (`dist`) both work as-is. Click Deploy.
 
 ## Project structure
 
